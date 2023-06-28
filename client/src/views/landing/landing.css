@@ -74,7 +74,23 @@ video{
 
 @media (max-width:800px){
     .landing-title{
+        position: relative;
         margin-top: 45%;
         width: 90%;
+    }
+
+    .landing-text-container{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: auto;
+        top: 20%;
+    }
+    .landing-button{ 
+        top: 90%;
+        left: 50%;
     }
 }

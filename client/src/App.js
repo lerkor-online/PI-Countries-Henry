@@ -6,6 +6,7 @@ import Detail from './views/detail/detail';
 import LandingPage from './views/landing/landing';
 import Form from './views/form/form';
 import axios from 'axios';
+/* axios.defaults.baseURL = 'http://localhost:3001/' */
 axios.defaults.baseURL = 'https://pi-countries-henry-production.up.railway.app/'
 
 
