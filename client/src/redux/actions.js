@@ -16,7 +16,7 @@ try {
 export const getCountriesByName = (name) => {
     return async function (dispatch) {
       try {
-        let response = await axios.get(`/name?name=${name}`);
+        let response = await axios.get(`https://pi-countries-henry-production.up.railway.app/name?name=${name}`);
         console.log(response.data);
   
         if (response.data.length !== 0) {
